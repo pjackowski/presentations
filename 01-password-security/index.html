@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password security</title>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <!--<link rel="stylesheet" href="styles/device.css"/>-->
+</head>
+<body>
+
+    <div class="loader ninja">
+        <div class="print-booting-system bold"></div>
+        <div class="print-system-operational"></div>
+
+        <div class="command-list-files"></div>
+        <div class="print-file-1"></div>
+
+        <div class="command-load-file-1"></div>
+        <div class="print-file-ready"></div>
+
+        <div class="command-request-audience"></div>
+        <div class="print-audience"></div>
+
+        <div class="command-request-date"></div>
+        <div class="print-date"></div>
+
+        <div class="command-request-speaker"></div>
+        <div class="print-speaker"></div>
+
+        <div class="command-request-coder"></div>
+        <div class="print-coder"></div>
+
+        <div class="command-request-musician"></div>
+        <div class="print-error"></div>
+        <div class="print-musician-not-found"></div>
+
+        <div class="command-display-invitation"></div>
+        <div class="command-print-invitation"></div>
+    </div>
+
+    <div id="impress" class="impress ninja">
+        <div id="navigation" class="step slide" data-x="0" data-y="0" data-rotate="0" data-scale="1">
+            <img src="images/navigation.png" alt="navigation"/>
+            <div>use keys to navigate</div>
+        </div>
+
+        <div id="invitation" class="step slide" data-x="1250" data-y="0" data-rotate="0" data-scale="1">
+            <div>this is <strong>invitation</strong> to</div>
+        </div>
+
+        <div id="title" class="step" data-x="500" data-y="1000" data-rotate="0" data-scale="3">
+            <div class="primary">
+                <div class="password">p<span class="digit">4</span>ssw<span class="digit">0</span>rd</div>
+                <div class="security">s<span class="digit">3</span>cur<span class="special">1</span>ty</div>
+            </div>
+        </div>
+
+        <div id="subtitle" class="step" data-x="1000" data-y="1600" data-rotate="90" data-scale="3">
+            <div class="byte">byte size briefing</div>
+            <div class="code">10110101 01101010 11010101</div>
+        </div>
+
+        <div id="motivation" class="step" data-x="1400" data-y="1550" data-rotate="-90" data-scale="3">
+            <div>what is my <strong>motivation?</strong></div>
+        </div>
+
+        <div id="sharing" class="step" data-x="2100" data-y="800" data-rotate="0" data-scale="3">
+            <div class="share">share</div>
+            <div>
+                <span class="knowledge">knowledge</span>
+                <span class="ampersand">&</span>
+                <span class="experience">experience</span>
+            </div>
+        </div>
+
+        <div id="learn" class="step" data-x="2100" data-y="2000" data-rotate="90" data-scale="3">
+            <div class="learn">learn</div>
+            <div class="something">something</div>
+            <div class="new">new</div>
+        </div>
+
+        <div id="expand" class="step" data-x="2400" data-y="2400" data-rotate="0" data-scale="3">
+            <div class="expand">expand</div>
+            <div class="comfort">comfort</div>
+            <div class="zone">zone</div>
+        </div>
+
+        <div id="omg" class="step" data-x="3000" data-y="2100" data-rotate="-90" data-scale="3">
+            <div class="floater left">
+                <div class="element oxygen">
+                    <div class="top">
+                        <span class="left">8</span>
+                        <span class="right">16.00</span>
+                    </div>
+                    <div class="middle">O</div>
+                    <div class="bottom">oxygen</div>
+                </div>
+            </div>
+            <div class="floater left">
+                <div class="element magnesium">
+                    <div class="top">
+                        <span class="left">12</span>
+                        <span class="right">24.30</span>
+                    </div>
+                    <div class="middle">Mg</div>
+                    <div class="bottom">magnesium</div>
+                </div>
+            </div>
+            <div class="floater text left">it is going to</div>
+            <div class="floater left">
+                <div class="element beryllium">
+                    <div class="top">
+                        <span class="left">4</span>
+                        <span class="right">9.00</span>
+                    </div>
+                    <div class="middle">Be</div>
+                    <div class="bottom">beryllium</div>
+                </div>
+            </div>
+            <div class="floater awesome left">awesome</div>
+        </div>
+
+        <div id="disaster" class="step" data-x="2000" data-y="3000" data-rotate="0" data-scale="2">
+            <div>
+                <span class="rotating-or">or</span>
+                <span class="color rotating-cw">spectacular</span>
+                <span class="color rotating-ccw">disaster</span>
+                <span class="rotating-cw">;-]</span>
+            </div>
+        </div>
+
+        <div id="agenda" class="step" data-x="-3400" data-y="3200" data-rotate="-90" data-scale="4">
+            <div>agenda</div>
+        </div>
+
+        <div id="access-control" class="step agenda" data-x="-3000" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">access control</div>
+            <div class="items">identification, authentication, authorization</div>
+        </div>
+
+        <div id="authentication" class="step agenda" data-x="-2600" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">authentication</div>
+            <div class="items">something you know/have/are</div>
+        </div>
+
+        <div id="storing-passwords" class="step agenda" data-x="-2200" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">storing passwords</div>
+            <div class="items">methods, salts, key stretching</div>
+        </div>
+
+        <div id="hash-functions" class="step agenda" data-x="-1800" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">cryptographic hash functions</div>
+            <div class="items">properties, common issues, popular algorithms</div>
+        </div>
+
+        <div id="password-strength" class="step agenda" data-x="-1400" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">password strength factors</div>
+            <div class="items">controlled by user/developer, random & human-generated passwords</div>
+        </div>
+
+        <div id="attacks" class="step agenda" data-x="-1000" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">attacks</div>
+            <div class="items">online, offline, dictionaries, hardware, software, effectiveness</div>
+        </div>
+
+        <div id="leaks" class="step agenda" data-x="-600" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">big leaks</div>
+            <div class="items">analysis of recovered passwords</div>
+        </div>
+
+        <div id="passwords-managers" class="step agenda" data-x="-200" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">passwords managers</div>
+            <div class="items">keepass</div>
+        </div>
+
+        <div id="guidelines" class="step agenda" data-x="200" data-y="3200" data-rotate="-90" data-scale="4">
+            <div class="header">guidelines</div>
+            <div class="items">4 programmers & users</div>
+        </div>
+
+        <div id="satisfaction" class="step" data-x="-1700" data-y="1350" data-rotate="0" data-scale="2">
+            <div>satisfaction guaranteed or your monies back!<span class="oneoneone">!!!111oneoneoneelevenone</span></div>
+        </div>
+
+        <div id="folks" class="step" data-x="600" data-y="4000" data-rotate="90" data-scale="4">
+            <div class="ring"></div>
+            <div class="thatsall">
+                <span>T</span>
+                <span>h</span>
+                <span>a</span>
+                <span>t</span>
+                <span>'</span>
+                <span>s</span>
+                <span> </span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span> </span>
+                <span>F</span>
+                <span>o</span>
+                <span>l</span>
+                <span>k</span>
+                <span>s</span>
+                <span>!</span>
+            </div>
+        </div>
+
+        <div id="overview" class="step" data-x="500" data-y="2500" data-rotate="0" data-scale="6"></div>
+    </div>
+
+    <!--<div class="device type"></div>-->
+
+    <script type="text/javascript" src="libs/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.typer.js"></script>
+    <script type="text/javascript" src="libs/impress.js"></script>
+    <script type="text/javascript" src="app/main.js"></script>
+
+</body>
+</html>

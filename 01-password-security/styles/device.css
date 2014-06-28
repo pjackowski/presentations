@@ -1,0 +1,43 @@
+.device {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+    z-index: 150;
+}
+
+/* Device type marker: Large desktop */
+@media (min-width: 1200px) {
+    .type {
+        background-color: red;
+    }
+}
+
+/* Device type marker: Portrait tablet to landscape and desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+    .type {
+        background-color: blueviolet;
+    }
+}
+
+/* Device type marker: Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .type {
+        background-color: orangered;
+    }
+}
+
+/* Device type marker: Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .type {
+        background-color: yellowgreen;
+    }
+}
+
+/* Device type marker: Landscape phones and down */
+@media (max-width: 500px) {
+    .type {
+        background-color: royalblue;
+    }
+}
