@@ -1,0 +1,39 @@
+body {
+    background: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation {
+    width: 60px;
+    height: 60px;
+
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    display: inline-block;
+    font-size: 26px;
+    color: #b3c33a;
+
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+
+    border: 5px solid #b3c33a;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navigation .arrow {
+    -webkit-animation: lineUp 1s cubic-bezier(0.0, 0.6, 1.0, 0.4) infinite .5s;]
+}
+
+@-webkit-keyframes lineUp {
+    0% {
+        -webkit-transform: translateX(-70px);
+
+    }
+    100% {
+        -webkit-transform: translateX(50px);
+    }
+}
