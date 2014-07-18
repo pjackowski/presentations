@@ -1,0 +1,155 @@
+1) Consistent ecosystem, everything you see here in Webstorm is also possible in other products, such as:
+    a) IntelliJ IDEA
+
+    b) PhpStorm
+
+    c) RubyMine
+
+    d) PyCharm
+
+
+2) Integration with many libraries by default
+    a) angular
+        autocompletion, directives, navigation
+
+    b) node
+        debugging, live console
+
+    c) require
+        navigation, refactoring - moving files changes their paths
+
+    d) any other library can be added to libs
+
+
+3) Integration code visioning systems by default
+    a) Mercurial
+
+    b) Git
+
+    c) SVN
+
+    d) Perforce
+
+    e) CVS
+
+
+4) Full support for modern front-end workflow
+    a) grunt
+        grunt console
+
+    b) bower
+        easy installation, removing, updating
+        preferences -> javascript -> bower
+        Ctrl + Alt + S -> bower
+        Ctrl + Shift + A -> bower
+
+
+5) Navigation to directories, files, narrowing down search
+    a) navigate to file/directory
+        Ctrl + Shift + N
+
+    b) navigate to class
+        Ctrl + N
+
+    c) navigate to any symbol
+        Ctrl + Shift + Alt + N
+
+    d) navigate by clicking symbol
+        Ctrl + left mouse click
+
+    e) navigate to method or property
+        Ctrl + F12
+
+    f) jQuery navigation to selector (CSS/HTML)
+        Ctrl + B
+
+
+6) Autocompletion
+    a) autocomplete everything, everywhere
+        f
+
+    b) autocomplete with camelcase
+        for example navigation to file
+
+    c) force auto complete
+        Ctrl + Space
+
+    d) cyclic completion
+        Alt + /
+
+
+7) Live templates
+    us, con, out, met, itar
+
+
+8) Static code analysis, checks for errors as you type
+    a) jsHint
+
+    b) jsLint
+
+    c) GoogleClosures
+
+    d) inspector Hector
+
+
+9) Multiple cursors
+    a) select word, select more Alt+J
+
+    b) Alt + left mouse click
+
+    c) column selection
+
+
+10) Searching
+    a) search in files
+
+    b) search in project, path or scope
+
+    c) regex
+
+    d) search everywhere
+        double shift
+
+    e) search in list of directories
+
+
+11) Emmet, HTML/CSS generator
+    a) div.myTest>ul>li*10>lorem
+
+    b) a[href='www.google.ie']	//;-)
+
+    c) w100, h10, dn, db, p0, m0
+
+
+12) Local history, this can be life saving!
+
+
+13) Language injections
+    a) autocompletes and highlights JS inside HTML and vice versa
+
+
+14) Refactoring, formatting and code analysis tools
+
+
+15) Panels, scopes, todos, command line
+
+
+16) Built spell check
+
+
+17) Lens mode, useful in long files
+
+
+18) Optimize selectors, fold/unfold, color picker, color markers
+
+
+19) Diffs, comparison with CVS, clipboard, other file
+
+
+20) Help
+    a) Up to date documentation
+        Menu -> Help -> Help topics
+
+    b) Productivity guide
+
+    c) JetBrainsTV FaceTube Channel
