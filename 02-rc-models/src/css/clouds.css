@@ -1,0 +1,217 @@
+.cloud {
+    position: relative;
+    border-radius: 50%;
+    background: #FFF;
+}
+
+.cloud-10 {
+    top: -50px;
+    left: 105%;
+}
+
+.cloud-15 {
+    top: -200px;
+    left: 105%;
+}
+
+.cloud-20 {
+    top: -320px;
+    left: calc(105% + 100px);
+}
+
+.cloud-25 {
+    top: -220px;
+    left: calc(105% + 150px);
+}
+
+.cloud-30 {
+    top: -300px;
+    left: calc(105% + 300px);
+}
+
+.cloud-35 {
+    top: -380px;
+    left: calc(105% + 500px);
+}
+
+.cloud-40 {
+    top: -500px;
+    left: calc(105% + 450px);
+}
+
+.cloud-45 {
+    top: -500px;
+    left: calc(105% + 1200px);
+}
+
+.cloud-50 {
+    top: -600px;
+    left: calc(105% + 500px);
+}
+
+.cloud-55 {
+    top: -750px;
+    left: calc(105% + 400px);
+}
+
+.cloud-60 {
+    top: -760px;
+    left: calc(105% + 1000px);
+}
+
+.cloud-65 {
+    top: -740px;
+    left: calc(105% + 900px);
+}
+
+.cloud-70 {
+    top: -740px;
+    left: calc(105% + 700px);
+}
+
+.cloud-back {
+    width: 40px;
+    height: 40px;
+    z-index: 20;
+
+    animation: cloud-motion 20s linear infinite;
+
+    box-shadow:
+        0      10px   5px  -7px  #666,   /*center*/
+
+        26px    1px   0    -3px  #FFF,   /*bottom-right*/
+        29px    4px   6px  -5px  #666,
+
+       -26px    1px   0    -3px  #FFF,   /*bottom-left*/
+       -29px    4px   6px  -5px  #666,
+
+       -13px  -20px   0    -1px  #FFF,   /*top-left*/
+       -16px  -22px   6px  -2px  #666,
+
+        13px  -16px   0    -5px  #FFF,   /*top-right*/
+        14px  -17px   6px  -8px  #666;
+}
+
+.cloud-middle-fast {
+    width: 60px;
+    height: 60px;
+    z-index: 30;
+
+    animation: cloud-motion 17s linear infinite;
+
+    box-shadow:
+        0      10px   5px  -7px  #666,   /*center*/
+
+        48px    1px   0    -3px  #FFF,   /*bottom-right*/
+        51px    4px   6px  -5px  #666,
+
+       -48px    1px   0    -3px  #FFF,   /*bottom-left*/
+       -51px    4px   6px  -5px  #666,
+
+       -24px  -36px   0    -1px  #FFF,   /*top-left*/
+       -25px  -40px   6px  -2px  #666,
+
+        23px  -28px   0    -7px  #FFF,   /*top-right*/
+        24px  -31px   6px -10px  #666;
+}
+
+.cloud-middle {
+    width: 60px;
+    height: 60px;
+    z-index: 40;
+
+    animation: cloud-motion 16s linear infinite;
+
+    box-shadow:
+        0      10px   5px  -7px  #666,   /*center*/
+
+        48px    1px   0    -3px  #FFF,   /*bottom-right*/
+        51px    4px   6px  -5px  #666,
+
+       -48px    1px   0    -3px  #FFF,   /*bottom-left*/
+       -51px    4px   6px  -5px  #666,
+
+       -24px  -36px   0    -1px  #FFF,   /*top-left*/
+       -25px  -40px   6px  -2px  #666,
+
+        23px  -28px   0    -7px  #FFF,   /*top-right*/
+        24px  -31px   6px -10px  #666;
+}
+
+.cloud-middle-slow {
+    width: 60px;
+    height: 60px;
+    z-index: 50;
+
+    animation: cloud-motion 13s linear infinite;
+
+    box-shadow:
+        0      10px   5px  -7px  #666,   /*center*/
+
+        48px    1px   0    -3px  #FFF,   /*bottom-right*/
+        51px    4px   6px  -5px  #666,
+
+       -48px    1px   0    -3px  #FFF,   /*bottom-left*/
+       -51px    4px   6px  -5px  #666,
+
+       -24px  -36px   0    -1px  #FFF,   /*top-left*/
+       -25px  -40px   6px  -2px  #666,
+
+        23px  -28px   0    -7px  #FFF,   /*top-right*/
+        24px  -31px   6px -10px  #666;
+}
+
+.cloud-front {
+    width: 80px;
+    height: 80px;
+    z-index: 60;
+
+    animation: cloud-motion 10s linear infinite;
+
+    box-shadow:
+         0      10px   5px  -7px  #666,   /*center*/
+
+         75px    1px   0    -3px  #FFF,   /*bottom-right*/
+         78px    4px   6px  -5px  #666,
+
+        -77px    1px   0    -3px  #FFF,   /*bottom-left*/
+        -80px    4px   6px  -5px  #666,
+
+        -26px  -50px   0     9px  #FFF,   /*top-left*/
+        -27px  -54px   6px   7px  #666,
+
+         40px  -40px   0    -10px #FFF,   /*top-right*/
+         43px  -43px   6px  -14px #666;
+}
+
+/*.cloud-base {
+    width: 100px;
+    height: 100px;
+    z-index: 60;
+
+    animation: cloud-motion 40s linear infinite;
+
+    box-shadow:
+        0      10px   5px  -7px  #666,   center
+
+        75px    1px   0    -3px  #FFF,   bottom-right
+        78px    4px   6px  -5px  #666,
+
+       -77px    1px   0    -3px  #FFF,   bottom-left
+       -80px    4px   6px  -5px  #666,
+
+       -26px  -50px   0     9px  #FFF,   top-left
+       -27px  -54px   6px   7px  #666,
+
+        53px  -50px   0    -18px #FFF,   top-right
+        56px  -53px   6px  -21px #666;
+}*/
+
+@keyframes cloud-motion {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(-2500px, 0px);
+    }
+}
