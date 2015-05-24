@@ -76,6 +76,16 @@ body {
     background: -ms-radial-gradient(#f0f0f0, #bebebe);
     background: -o-radial-gradient(#f0f0f0, #bebebe);
     background: radial-gradient(#f0f0f0, #bebebe);
+    opacity: 0;
+}
+
+.fade-in {
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+    opacity: 1;
 }
 
 b, strong { font-weight: bold }
@@ -115,7 +125,6 @@ i, em { font-style: italic }
     width: 900px;
     padding: 40px;
     margin: 20px auto;
-    /*outline: 1px solid deeppink;*/
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
@@ -307,6 +316,9 @@ i, em { font-style: italic }
     transform:         rotate(10deg);
 
     -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
 }
 
 #shred.present .some.rotate {
@@ -317,6 +329,9 @@ i, em { font-style: italic }
     transform:         rotate(3deg);
 
     -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
 }
 
 #shred.present .hashes.rotate {
@@ -327,6 +342,9 @@ i, em { font-style: italic }
     transform:         rotate(-10deg);
 
     -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
 }
 
 
