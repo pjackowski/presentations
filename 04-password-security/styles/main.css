@@ -61,6 +61,11 @@ table {
     float: right;
 }
 
+.nah {
+    text-decoration: line-through;
+    color: #999;
+}
+
 html {
     height: 100%;
 }
