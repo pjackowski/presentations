@@ -1,0 +1,22 @@
+/*
+@keyframes wave-flag-front {
+    from {
+        width: 90px;
+    }
+    to {
+        width: 110px;
+    }
+}
+
+@keyframes wave-flag-back {
+    from { left: 42px;
+        width: 140px;
+    }
+    to {
+        left: 112px; width: 70px;
+    }
+}
+
+animation: wave-flag-front 3s linear infinite alternate;
+animation: wave-flag-back 3s linear infinite alternate;
+*/

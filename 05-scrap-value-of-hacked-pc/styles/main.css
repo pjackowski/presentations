@@ -1,0 +1,457 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* COMMON */
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Strait', sans-serif;
+    min-height: 740px;
+    -webkit-text-stroke: 0.3px;
+    background: linear-gradient(to right, orange, darkorange);
+    opacity: 0;
+
+    /*background-color: gray;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);*/
+}
+
+.fade-in {
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+b, strong {
+    font-weight: bold
+}
+
+i, em {
+    font-style: italic
+}
+
+
+/* TYPOGRAPHY */
+@font-face {
+    font-family: 'Droid Sans Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Droid Sans Mono'), local('DroidSansMono'), url('../fonts/droidsansmono.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Strait';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Strait'), local('Strait-Regular'), url('../fonts/strait.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Parisienne'), local('Parisienne-Regular'), url('../fonts/parisienne.woff') format('woff');
+}
+
+
+/* PRESENTATION */
+.impress {
+    -webkit-text-stroke: 0.5px;
+}
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.impress-enabled .step.active {
+    opacity: 1
+}
+
+
+/* COMMON */
+div {
+    text-transform: uppercase;
+}
+
+.risk {
+    font-size: 22px;
+    color: white;
+    text-transform: lowercase;
+}
+
+.risk .factor {
+    text-transform: uppercase;
+}
+
+/* NAVIGATION */
+#navigation {
+    text-align: center;
+}
+
+#navigation img {
+    width: 25%;
+    height: 25%;
+}
+
+
+/* INTRO */
+#intro-1, #intro-2, #intro-3 {
+    text-align: center;
+}
+
+
+/* HACKED */
+#hacked {
+    text-align: center;
+    opacity: 1 !important;
+}
+
+#hacked * {
+    display: inline-block;
+}
+
+#hacked.step.active .questionmark {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#hacked .station {
+    width: 350px;
+    height: 300px;
+    transform: translate(-50px, 250px);
+}
+
+.station .computer {
+    width: 75px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+
+    -webkit-box-shadow: 0 2px 3px #000000;
+    -moz-box-shadow: 0 2px 3px #000000;
+    -o-box-shadow: 0 2px 3px #000000;
+    box-shadow: 0 2px 3px #000000;
+}
+
+.computer .dvd {
+    width: 75px;
+    height: 25px;
+    background-color: dimgrey;
+}
+
+.computer .dvd .inner {
+    width: 68px;
+    height: 10px;
+    background-color: #888;
+    outline: 1px solid #333;
+    transform: translate(0px, 3px);
+}
+
+.computer .dvd .label {
+    width: 10px;
+    height: 6px;
+    background-color: #999;
+    outline: 1px solid #666;
+    transform: translate(-9px, -45px)
+}
+
+.computer .dvd .left {
+    width: 8px;
+    height: 4px;
+    background-color: #999;
+    outline: 1px solid #666;
+    transform: translate(-16px, -46px)
+}
+
+.computer .dvd .button {
+    width: 12px;
+    height: 3px;
+    background-color: #777;
+    outline: 1px solid #333;
+    transform: translate(18px, -103px);
+}
+
+.computer .dvd .led {
+    width: 6px;
+    height: 2px;
+    background-color: yellowgreen;
+    outline: 1px solid #333;
+    transform: translate(26px, -103px);
+}
+
+.computer .empty {
+    width: 75px;
+    height: 20px;
+    background-color: dimgrey;
+    transform: translate(0px, -151px);
+}
+
+.computer .floppy {
+    width: 50px;
+    height: 15px;
+    background-color: dimgrey;
+    transform: translate(13px, -207px);
+}
+
+.computer .main-vents {
+    width: 75px;
+    height: 120px;
+    background-color: black;
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,0.35) 50%);
+    background-size: 6px 6px;
+    transform: translate(0px, -208px);
+}
+
+.computer .middle-panel {
+    width: 10px;
+    height: 120px;
+    background-color: black;
+}
+
+.computer .main-vents .panel-logo {
+    width: 9px;
+    height: 9px;
+    background-color: #333;
+    outline: 1px solid #777;
+    transform: translate(0px, -35px);
+}
+
+.computer .main-vents .usb-port {
+    width: 9px;
+    height: 3px;
+    background-color: #333;
+    outline: 1px solid #444;
+}
+
+.computer .usb-port.one {
+    transform: translate(0px, -85px);
+}
+
+.computer .usb-port.two {
+    transform: translate(0px, -148px);
+}
+
+.computer .usb-port.three {
+    transform: translate(0px, -211px);
+}
+
+.computer .usb-port.four {
+    transform: translate(0px, -274px);
+}
+
+
+/* MONETIZATION */
+.monetization {
+    font-size: 30px;
+}
+
+.monetization .items {
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 15px;
+}
+
+
+/* OTHERS */
+#advice .container {
+    font-size: 30px;
+    width: 400px;
+    height: 280px;
+}
+
+#advice .krebs {
+    margin-top: 40px;
+}
+
+#advice a {
+    color: white;
+    text-decoration: none;
+}
+
+#advice a:hover {
+    color: black;
+}
+
+
+/* POSITION */
+.container {
+    height: 280px;
+    transform: translate(400px, 45px);
+}
+
+.container .they {
+    font-size: 20px;
+    line-height: 18px;
+    text-transform: lowercase;
+    color: #444;
+}
+
+
+/* FLAG */
+#hacked .pirates {
+    position: relative;
+    top: -625px;
+    left: 25px;
+}
+
+.pirates .stick {
+    width: 5px;
+    height: 180px;
+    background: rgb(240, 240, 240);
+    transform: skew(10deg, 0deg);
+}
+
+.pirates .flag {
+    position: absolute;
+    background: rgb(50, 50, 50);
+    transform: skew(10deg, 0deg);
+}
+
+.pirates .flag.front {
+    width: 100px;
+    height: 90px;
+    top: 0;
+    left: -8px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.pirates .flag.back {
+    width: 100px;
+    height: 90px;
+    top: 30px;
+    left: 47px;
+    background: rgb(75, 75, 75);
+    z-index: 5;
+}
+
+.pirates .fold {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-color: rgb(150, 150, 150) transparent transparent transparent;
+    border-style: solid;
+    border-width: 30px 45px 0 0;
+    z-index: 15;
+}
+
+.pirates .jolly-roger {
+    width: 41px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 70px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 50%;
+    letter-spacing: -5px;
+}
+
+.pirates .jolly-roger .eye {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -28px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 50%;
+}
+
+.pirates .jolly-roger .cover {
+    width: 42px;
+    height: 20px;
+    position: relative;
+    top: -70px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 40%;
+}
+
+.pirates .jolly-roger .jaw {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    top: -152px;
+    left: -1px;
+    letter-spacing: -10px;
+}
+
+.pirates .jolly-roger .teeth {
+    width: 5px;
+    height: 10px;
+    background-color: rgb(95, 95, 95);
+}
+
+.pirates .jolly-roger .bone {
+    width: 60px;
+    height: 5px;
+    position: relative;
+    left: -10px;
+    background-color: rgb(95, 95, 95);
+}
+
+.pirates .bone.one {
+    top: -210px;
+    transform: rotate(20deg);
+}
+
+.pirates .bone.two {
+    top: -284px;
+    transform: rotate(-20deg);
+}
