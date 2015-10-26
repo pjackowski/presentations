@@ -1,0 +1,137 @@
+1. MALICIOUS WEB SERVER
+
+  * phishing
+    - they are looking for free hosting because payments are more risky
+    - accounts are quickly suspended when phishing site is reported
+
+  * malware download site
+    - serve malware to other infected computers
+
+
+2. EMAIL ATTACKS
+
+  * sending spam
+    - free mail server
+
+  * harvesting emails contacts
+    - contacts stored in email clients such as Outlook
+
+  * harvesting associated accounts
+    - collected from inbox
+
+
+3. INTELLECTUAL PROPERTY
+
+  * corporate emails and contacts
+
+  * project documentation
+
+  * code and other assets
+
+  * business information
+    - consider recent Hacking Team data breach, published emails, invoices, client profiles,
+      zero day exploits, code, docs, infrastructure details, exposed lies
+    - they have their own Wikipedia page now ;-)
+
+
+4. VIRTUAL GOODS
+
+  * online gaming characters
+  * online gaming goods/currency
+    - people spend a lot of real life resources (time & money) in mmorpgs with virtual economy to
+      obtain virtual goods (powerful characters, weapons, rare items, virtual gold)
+    - Chinese gamer stabbed to death by his mate for selling on ebay his powerful Dragon Sabre ($870)
+    - South Korea introduced special police investigation units to cover virtual crimes
+
+  * license key
+
+
+5. HIJACK REPUTATION
+
+  * social media accounts
+    - obtain personal information like birthday, phone number or location
+    - post content that impacts reputation, blackmail owners
+    - send spam or try to exploit vulnerable friends, ex:
+      - mobile phone and credit cards had been stolen during trip and friend badly needs money
+      - asks directly for wire transfer to Western Union account
+      - asks you to call hotel (presumably chargeable phone number)
+
+
+6. BOTNET
+
+  * spam zombie
+
+  * ddos zombie
+
+  * click fraud zombie
+
+  * anonymization proxy
+
+  * captcha solver zombie
+
+  * bitcoin miner
+
+
+7. ACCOUNT CREDENTIALS
+
+  * gmail
+    - inherit contact list
+    - can unlock the "account recovery" features of other services
+    - invest in multistep attacks to acquire personal data they then
+      leverage for more pernicious crimes down the road
+
+  * fake auctions on ebay
+
+  * online gaming credentials
+
+  * website ftp credentials
+    - two vectors:
+      - compromise websites
+      - steal information stored on server
+
+  * CMS (WordPress, Joomla)
+
+  * SSH keys
+
+  * github credentials
+
+  * skype/voip credentials
+
+  * client side certificates
+
+
+8. FINANCIAL CREDENTIALS
+
+  * bank account
+
+  * credit card details
+
+  * stock trading account
+
+  * funds/pension account
+
+  * paypal account
+
+  * bitcoin wallet
+
+
+9. HOSTAGE ATTACKS
+
+  * fake antivirus
+    - misleads users into paying money for fake or simulated removal of malware
+    - it might claim to get rid of, but instead introduces malware to the computer
+    - form of ransomware
+
+  * ransomware
+    - is a type of malware that prevents or limits users from accessing their system
+    - often police-themed
+    - cryptolocker encrypts files
+
+  * email account ransom
+  * social media account ransom
+    - denial of access, hijack account and change password
+
+  * webcam image extortion
+    - RAT, DarkComet, CyberGate
+    - some camera lights are very dim, some can be disabled with software
+    - black tape as low-tech, but bulletproof solution
