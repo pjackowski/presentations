@@ -1,0 +1,46 @@
+MHN and Kippo, Dionaea, Glastopf, P0f, Snort:
+https://itandsecuritystuffs.wordpress.com/2015/02/06/story-of-a-honeynet-or-how-secure-are-your-servers-on-the-internet/
+
+Avoiding Dionaea service identification:
+http://www.securityartwork.es/2014/06/05/avoiding-dionaea-service-identification/?lang=en
+
+More info o Dionaea, sample scans with Metasploit:
+http://www.edgis-security.org/honeypot/dionaea/
+
+Interesting slides re MHN:
+http://www.slideshare.net/jasontrost/modern-honey-network-mhn
+
+More complex presentation re MHN:
+http://www.slideshare.net/jasontrost/deploying-managing-and-leveraging-honeypots-in-the-enterprise-using-open-source-tools?related=1
+
+MHN trouble shooting:
+https://github.com/threatstream/mhn/wiki/MHN-Troubleshooting-Guide
+
+Quick description of other honeypots: 
+https://zeltser.com/honeypots-for-malware-ssh-web-attacks/
+
+Tutorial from threatstream:
+http://threatstream.github.io/mhn/
+
+
+RaspberryPI issues:
+
+http://raspberrypi.stackexchange.com/questions/18267/no-signal-on-tv-and-computer-monitor
+http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display
+https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=34061
+http://elinux.org/R-Pi_Troubleshooting
+http://superuser.com/questions/656168/how-to-start-a-service-on-startup-on-debian-headless-server-raspberry-pi
+
+http://raspberrypi.stackexchange.com/questions/13558/how-to-get-wi-fi-to-connect-on-boot
+http://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
+
+http://raspberrypi.stackexchange.com/questions/38/prepare-for-ssh-without-a-screen
+http://raspberrypi.stackexchange.com/questions/14611/how-to-set-up-raspberry-pi-without-a-monitor
+
+http://www.instructables.com/id/Remote-SSH-access-to-Raspberry-Pi-2/?ALLSTEPS
+
+http://www.megaleecher.net/Raspberry_Pi_Autostart
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=9132
+http://raspberrypi.stackexchange.com/questions/31663/problem-wpa-supplicant-rapsberry-pi-2
+
