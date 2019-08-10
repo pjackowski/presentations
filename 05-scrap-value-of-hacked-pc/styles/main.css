@@ -79,12 +79,12 @@ i, em {
 
 
 /* TYPOGRAPHY */
-@font-face {
+/*@font-face {
     font-family: 'Droid Sans Mono';
     font-style: normal;
     font-weight: 400;
     src: local('Droid Sans Mono'), local('DroidSansMono'), url('../fonts/droidsansmono.ttf') format('truetype');
-}
+}*/
 
 @font-face {
     font-family: 'Strait';
@@ -93,12 +93,12 @@ i, em {
     src: local('Strait'), local('Strait-Regular'), url('../fonts/strait.ttf') format('truetype');
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Parisienne';
     font-style: normal;
     font-weight: 400;
     src: local('Parisienne'), local('Parisienne-Regular'), url('../fonts/parisienne.woff') format('woff');
-}
+}*/
 
 
 /* PRESENTATION */
@@ -132,30 +132,114 @@ div {
     text-transform: uppercase;
 }
 
-.risk {
-    font-size: 22px;
+.impact {
+    position: relative;
+    top: -2px;
+    font-size: 30px;
+    font-weight: normal;
     color: white;
     text-transform: lowercase;
 }
 
-.risk .factor {
+.impact .factor {
+    margin: 0 5px 0 0;
     text-transform: uppercase;
 }
+
+.impact .icon {
+    margin: 0 5px;
+}
+
 
 /* NAVIGATION */
 #navigation {
     text-align: center;
 }
 
-#navigation img {
-    width: 25%;
-    height: 25%;
+#navigation .use {
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 120px;
+}
+
+#navigation .keyboard {
+    margin-left: 50px;
+    font-size: 170px;
+}
+
+#navigation .to-navigate {
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: bold;
 }
 
 
 /* INTRO */
-#intro-1, #intro-2, #intro-3 {
+#technologies, #credit-card {
     text-align: center;
+}
+
+#technologies .wrapper {
+    margin-left: 25%;
+    text-align: left;
+}
+
+#technologies .powered {
+    line-height: 100px;
+}
+
+#technologies .icon {
+    width: 115px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 100px;
+}
+
+#technologies .css3, #technologies .html5, #technologies .js {
+    font-size: 100px;
+    line-height: 115px;
+    font-weight: bold;
+}
+
+#technologies .css3 .icon {
+    font-size: 95px;
+}
+
+#technologies .number {
+    margin-left: 20px;
+    font-size: 80px;
+}
+
+#credit-card .card {
+    font-size: 360px;
+    line-height: 350px;
+}
+
+#credit-card .not-required {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+/* TITLE */
+#title {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+#title .monetize {
+    font-weight: bold;
+}
+
+#title .hacked-pc {
+    margin-left: -3px;
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+#title .terminal {
+    font-size: 80px;
 }
 
 
@@ -305,8 +389,8 @@ div {
 }
 
 .monetization .items {
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 45px;
     padding-left: 15px;
 }
 
@@ -339,10 +423,15 @@ div {
 }
 
 .container .they {
-    font-size: 20px;
-    line-height: 18px;
+    font-size: 30px;
+    line-height: 28px;
     text-transform: lowercase;
     color: #444;
+}
+
+.container .header {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 
@@ -373,6 +462,16 @@ div {
     left: -8px;
     overflow: hidden;
     z-index: 10;
+    animation: wave-flag-front 3s linear infinite alternate;
+}
+
+@keyframes wave-flag-front {
+    from {
+        width: 90px;
+    }
+    to {
+        width: 110px;
+    }
 }
 
 .pirates .flag.back {
@@ -382,6 +481,18 @@ div {
     left: 47px;
     background: rgb(75, 75, 75);
     z-index: 5;
+    animation: wave-flag-back 3s linear infinite alternate;
+}
+
+@keyframes wave-flag-back {
+    from {
+        width: 110px;
+        left: 37px;
+    }
+    to {
+        width: 90px;
+        left: 57px;
+    }
 }
 
 .pirates .fold {

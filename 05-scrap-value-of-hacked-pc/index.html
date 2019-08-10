@@ -3,29 +3,35 @@
 <head>
     <title>Scrap value of hacked PC</title>
     <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/font-awesome.min.css"/>
     <script type="text/javascript" src="libs/prefixfree.min.js"></script>
 </head>
 <body>
 
     <div id="impress" class="impress">
         <div id="navigation" class="step" data-x="0" data-y="0" data-rotate="0" data-scale="1">
-            <img src="images/navigation.png" alt="navigation"/>
-            <div>use keys to navigate</div>
+            <div class="use">use<span class="fa fa-keyboard-o keyboard"></span></div>
+            <div class="to-navigate">to navig4te</div>
         </div>
 
-        <div id="intro-1" class="step" data-x="0" data-y="1000" data-rotate="0" data-scale="1">
-            <div>have you ever</div>
-            <div>wondered</div>
+        <div id="technologies" class="step" data-x="0" data-y="1000" data-rotate="0" data-scale="1">
+            <div class="wrapper">
+                <div class="powered">powered by</div>
+                <div class="css3"><span class="fa fa-css3 icon"></span>CSS<span class="number">3</span></div>
+                <div class="html5"><span class="fa fa-html5 icon"></span>HTML<span class="number">5</span></div>
+                <div class="js"><span class="fa fa-shield icon"></span>js</div>
+            </div>
         </div>
 
-        <div id="intro-2" class="step" data-x="0" data-y="1300" data-rotate="0" data-scale="1">
-            <div>how criminals</div>
-            <div>could monetize</div>
+        <div id="credit-card" class="step" data-x="0" data-y="1300" data-rotate="0" data-scale="1">
+            <div class="fa fa-credit-card-alt card"></div>
+            <div class="not-required">not required</div>
         </div>
 
-        <div id="intro-3" class="step" data-x="0" data-y="1600" data-rotate="0" data-scale="1">
-            <div>H4CKED</div>
-            <div>computer?</div>
+        <div id="title" class="step" data-x="0" data-y="1600" data-rotate="0" data-scale="1">
+            <div>how criminals <span class="fa fa-usd"></span><span class="monetize">monetize</span></div>
+            <div class="hacked-pc">H4CKED computer</div>
+            <div><span class="fa fa-terminal terminal"></span></div>
         </div>
 
         <div id="hacked" class="step" data-x="0" data-y="3500" data-rotate="0" data-scale="3">
@@ -76,126 +82,95 @@
             </div>
         </div>
 
-        <div id="web-server" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
+        <div id="steal-money" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
             <div class="container">
-                <div class="they">they could use it to setup</div>
-                <div class="header">Malicious web server <span class="risk">[ risk: <span class="factor">LOW</span> ]</span></div>
+                <div class="they">they could steal</div>
+                <div class="header">Your money <span class="impact">[<span class="fa fa-warning icon"></span><span class="factor">HIGH</span>]</span></div>
                 <ul class="items">
-                    <li>Phishing site</li>
-                    <li>Malware download site</li>
+                    <li>Bank account</li>
+                    <li>Paypal account</li>
+                    <li>Credit card details</li>
+                    <li>Bitcoin wallet</li>
                 </ul>
             </div>
         </div>
 
-        <div id="email-attacks" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
-            <div class="container">
-                <div class="they">they could perform</div>
-                <div class="header">Email attacks <span class="risk">[ risk: <span class="factor">LOW</span> ]</span></div>
-                <ul class="items">
-                    <li>Sending spam</li>
-                    <li>Harvesting emails contacts</li>
-                    <li>Harvesting associated accounts</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="intelectual-property-attacks" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
+        <div id="intellectual-property" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
             <div class="container">
                 <div class="they">they could exfiltrate</div>
-                <div class="header">Intellectual property <span class="risk">[ risk: <span class="factor">HIGH</span> ]</span></div>
+                <div class="header">Intellectual property <span class="impact">[<span class="fa fa-warning icon"></span><span class="factor">HIGH</span>]</span></div>
                 <ul class="items">
+                    <li>Crown jewels</li>
+                    <li>Code and related assets</li>
+                    <li>Sensitive business details</li>
                     <li>Corporate emails and contacts</li>
-                    <li>Project documentation</li>
-                    <li>Code and other assets</li>
-                    <li>Business information</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="virtual-goods" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
-            <div class="container">
-                <div class="they">they could steal your</div>
-                <div class="header">Virtual goods <span class="risk">[ risk: <span class="factor">MEDIUM</span> ]</span></div>
-                <ul class="items">
-                    <li>Online gaming characters</li>
-                    <li>Online gaming goods/currency</li>
-                    <li>Virtual currency</li>
-                    <li>Licence keys</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="reputation-hijacking" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
-            <div class="container">
-                <div class="they">they could</div>
-                <div class="header">Hijack reputation <span class="risk">[ risk: <span class="factor">MEDIUM</span> ]</span></div>
-                <ul class="items">
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Linkedin</li>
-                    <li>Google+</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="bot-activity" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
-            <div class="container">
-                <div class="they">they could add it to</div>
-                <div class="header">Botnet <span class="risk">[ risk: <span class="factor">LOW</span> ]</span></div>
-                <ul class="items">
-                    <li>Spam zombie</li>
-                    <li>DDoS extortion zombie</li>
-                    <li>Click fraud zombie</li>
-                    <li>Anonymization proxy</li>
-                    <li>CAPTCHA solver zombie</li>
-                    <li>Bitcoin miner</li>
                 </ul>
             </div>
         </div>
 
         <div id="account-credentials" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
             <div class="container">
-                <div class="they">they could steal</div>
-                <div class="header">Account credentials <span class="risk">[ risk: <span class="factor">HIGH</span> ]</span></div>
+                <div class="they">they could sell</div>
+                <div class="header">Account credentials <span class="impact">[<span class="fa fa-warning icon"></span><span class="factor">HIGH</span>]</span></div>
                 <ul class="items">
                     <li>Gmail</li>
-                    <li>Fake auctions on Ebay</li>
-                    <li>Online gaming credentials</li>
-                    <li>Website FTP credentials</li>
-                    <li>CMS (WordPress, Joomla) credentials</li>
+                    <li>Github</li>
+                    <li>AWS console</li>
                     <li>SSH keys</li>
-                    <li>Github credentials</li>
-                    <li>Skype/VoIP credentials</li>
-                    <li>Client side encryption certs</li>
+                    <li>WordPress</li>
+                    <li>VPN certificates</li>
                 </ul>
             </div>
         </div>
 
-        <div id="financial-credentials" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
+        <div id="ransomware" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
+            <div class="container">
+                <div class="they">they could demand</div>
+                <div class="header">Ransom <span class="impact">[<span class="fa fa-warning icon"></span><span class="factor">MEDIUM</span>]</span></div>
+                <ul class="items">
+                    <li>Crypto ransomware</li>
+                    <li>Webcam image extortion</li>
+                    <li>Account ransom</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="virtual-stuff" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
             <div class="container">
                 <div class="they">they could steal</div>
-                <div class="header">Financial credentials <span class="risk">[ risk: <span class="factor">HIGH</span> ]</span></div>
+                <div class="header">Virtual stuff <span class="impact">[<span class="fa fa-warning icon"></span><span class="factor">MEDIUM</span>]</span></div>
                 <ul class="items">
-                    <li>Bank account</li>
-                    <li>Credit card details</li>
-                    <li>Stock trading account</li>
-                    <li>Funds/pension account</li>
-                    <li>Paypal account</li>
-                    <li>Bitcoin wallet</li>
+                    <li>Online gaming characters</li>
+                    <li>Virtual goods & currency</li>
+                    <li>Licence keys</li>
                 </ul>
             </div>
         </div>
 
-        <div id="hostage-attacks" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
+        <div id="botnet" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
             <div class="container">
-                <div class="they">they could perform</div>
-                <div class="header">Hostage attacks <span class="risk">[ risk: <span class="factor">MEDIUM</span> ]</span></div>
+                <div class="they">they could build</div>
+                <div class="header">Botnet <span class="impact">[<span class="fa fa-warning icon"></span><span class="factor">LOW</span>]</span></div>
                 <ul class="items">
-                    <li>Fake antivirus</li>
-                    <li>Ransomware</li>
-                    <li>Email account ransom</li>
-                    <li>Social media account ransom</li>
-                    <li>Webcam image extortion</li>
+                    <li>DDoS zombie</li>
+                    <li>Anonymization proxy</li>
+                    <li>CAPTCHA solver</li>
+                    <li>Bitcoin miner</li>
+                    <li>Spam server</li>
+                    <li>Phishing site</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="destroy-reputation" class="monetization step" data-x="500" data-y="3500" data-rotate="0" data-scale="3">
+            <div class="container">
+                <div class="they">they could destroy</div>
+                <div class="header">Reputation <span class="impact">[<span class="fa fa-warning icon"></span><span class="factor">LOW</span>]</span></div>
+                <ul class="items">
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Linkedin</li>
+                    <li>Google+</li>
                 </ul>
             </div>
         </div>
