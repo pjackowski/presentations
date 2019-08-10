@@ -1,0 +1,132 @@
+LINUX NOTES FOR FRIDAY LOLZZZ
+
+0x00 LOGO
+
+
+0x01 INTRO
+
+* Linux and Linux kernel
+* using Linux since 2004
+* growing Linux community in tech team
+
+
+0x02 WHAT IS LINUX
+
+* family of open-source operating systems built around the Linux kernel
+* typically packaged in a form known as a Linux distro
+
+
+0x03 LINUX KERNEL
+
+* world's most successful and important software project
+* started as personal project by Linus Torvalds
+* source code released in 1991 (26 years ago)
+* licensed under GPLv2 (only)
+
+
+0x04 MORE ON LINUX KERNEL
+
+* Linux 4.14 contains about 23 million lines of code (C, header files, Assembly, JSON, build scripts, etc)
+* over 14k developers from over 1300 companies have contributed since 2005
+* 80% of developers are being paid for their work
+* widest driver support, 85% of kernel code is in drivers
+
+
+0x05 BIGGEST CONTRIBUTORS
+
+* RedHat, Intel, Samsung, IBM, SUSE, Google...
+* Linaro organization focusing on ARM
+
+* biggest pain points in past:
+  NVIDIA and ATI GPUs, Broadcom WiFi chipsets
+
+
+0x06 LINUX IS EVERYWHERE
+
+* 100% of top 500 super computers
+* 85% of cloud
+* KVM is displacing other hypervisors
+* Android has 90% of market
+* IoT is dominated by embedded Linux
+* network hardware, routers, access points, switches
+
+* behind on desktops and laptops (3%)
+
+
+0x07 LINUX IN SPACEX
+
+* SpaceX uses a special fault-tolerant Linux kernel in Merlin rocket engines
+* plus all their IT infrastructure
+* it is also used in Tesla Motors
+
+* Falcon self-destruct routines run in unpatched Windows XP ;)
+
+
+0x08 LINUX IN ORGANIZATION
+
+* Linode runs on Linux
+* all our servers runs on Ubuntu
+* few developers already switched to Linux
+
+* we heavily rely on open-source
+
+
+0x09 MAIN DISTROS
+
+* Debian, Ubuntu
+* RedHat, Fedora, SUSE
+* Arch
+* Android (fork of kernel + custom libs)
+* BackTrack and Kali
+
+* distributions tree: wikipedia.org/wiki/Linux_distribution
+
+
+0x0A KERNEL: BRANCHES
+
+* Linus' branch is mainline kernel
+* linux-stable receives slower updates and less bug fixes
+* linux-next is dev branch, merges all of developers' and maintainers' trees
+* releases about every 10 weeks (sometimes 9, 4.15 delayed by 1 week due to meltdown)
+* every now and then there is LTS release with supported for few years
+
+
+0x0B KERNEL: MAINTAINERS
+
+* every file and driver has maintainer
+* subsystems have maintainers
+* branches have maintainers
+* developer -> driver/file maintainer -> subsystem maintainer -> Linus
+
+* script identifies owners, so don't touch floppy disk drivers ;)
+
+
+0x0C CONTRIBUTING: PATCHES
+
+* most active open source project on Earth, an average of 185 patches per day
+* source code is stored git
+* changes are submitted in bite-size diffs over email to maintainers
+* special email client configuration is required: no links, no compression, no attachments, just plain text
+* IBM is doing builds, very little testing, because testing hardware is hard
+
+
+0x0D OPEN SOURCE PROJECTS
+
+* GIMP, Blender
+* Firefox, Chromium
+* LibreOffice
+* KeepassXC
+* Atom
+
+* Quake 3 source code
+
+
+0x0E VIRTUALIZATION
+
+* VirtualBox, open-source hypervisor from Oracle
+* WINE, compatibility layer capable of running Windows apps
+
+
+0x0F Q&A
+
+EOF
