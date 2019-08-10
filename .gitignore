@@ -35,10 +35,8 @@
 ####################
 tmp/**/*
 tmp*/**/*
-
-htaccess
-.htaccess
-
-.idea/**/*
-
 node_modules/**/*
+
+# IDE #
+#######
+.idea/**/*
